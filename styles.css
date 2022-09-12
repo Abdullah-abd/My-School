@@ -1,0 +1,193 @@
+.font-style{
+    color: rgb(0, 21, 255);
+    margin-right: 40px;
+    /* width: 80px; */
+}
+.Logo-name{
+    color: brown;
+}
+
+.crousel-img img{
+    width: 100%;
+    height: 85vh;
+    object-fit: fill;
+    
+
+}
+.nav-center{
+    display:flex;
+    padding-right: 150px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.services-heading{
+    color: brown;
+    width: 70%;
+    height: 60px;
+    font-size: 50px;
+    margin: 20px 0;
+    padding: 5px;
+
+}
+.serve{
+    background-color: rgba(237, 157, 157, 0.905);
+    height: 100vh;
+}
+.def-services{
+    margin: 30px;
+}
+.mystds{
+    /* margin: 50px; */
+    background-color: rgb(209, 230, 248);
+    padding: 30px;
+    height: 300px;
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 20px;
+}
+.about-us{
+    padding: 40px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+    background-color: #1e2d43;
+    color: #fff;
+}
+.about-us .about-head{
+    text-align: center;
+}
+.about-us .about-detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    height: fit-content;
+    text-align: center;
+}
+.about-us .about-detail .staff,.result,.mission{
+    border-radius: 18px;
+    padding: 10px;
+    padding-top: 20px;
+    max-height: 250px
+    
+}
+.about-us .about-detail .staff{
+    overflow: scroll;
+    text-align: justify;
+    width: 100%;
+    margin: 20px 0;
+}
+.staff::-webkit-scrollbar{
+    width: 0;
+}
+.about-us .about-detail .result{
+    overflow: scroll;
+    text-align: justify;
+    width: 100%;
+    margin: 20px 0;
+}
+.result::-webkit-scrollbar{
+    width: 0;
+}
+.about-us .about-detail .mission{
+    overflow: scroll;
+    text-align: justify;
+    width: 100%;
+    margin: 20px 0;
+}
+.mission::-webkit-scrollbar{
+    width: 0;
+}
+.about-us .about-detail .staff i{
+    display: flex;
+    justify-content: center;
+    
+}
+.about-us .about-detail .result i{
+    display: flex;
+    justify-content: center;
+}
+.staff-head{
+    text-align: center;
+}
+@media only screen and (max-width:750px) {
+    .crousel-img img{
+        height: 50vh;
+    }
+    
+}
+@media only screen and (max-width:420px) {
+    .crousel-img img{
+        height: 30vh;
+    }
+    .font-style{
+     display: none;
+     visibility: hidden;
+    }
+    .Logo-name{
+        font-size: 15px;
+    }
+    .services-heading{
+        color: brown;
+        width: 100%;
+        height: 60px;
+        font-size: 30px;
+        margin: 0px;
+        padding: 15px;
+    }
+
+    
+}
+@media only screen and (min-width:1000px) {
+    .crousel-img img{
+        height: 110vh;
+    }
+    
+}
+@media only screen and (max-width:950px) {
+    .about-us{
+        padding: 50px;
+        display: block;
+        width: 100%;
+    }
+    .about-us{
+        max-height: 100vh;
+        overflow-y: auto;
+
+    }
+    .serve-box{
+        max-height: 100vh;
+        overflow-y: 100vh;
+    }
+}  
+@media only screen and (max-width:995px){
+    .nav-center{
+        display:flex;
+        padding-right: 150px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .serve-box{
+        overflow-y: scroll;
+    }
+    .serve-box::-webkit-scrollbar{
+        width: 0;
+    }
+}  
+@media only screen and (max-width:550px) {
+    .about-us{
+        max-height: 100vh;
+        overflow-y: auto;
+
+    }
+    .about-us .about-detail{
+        display: block;
+        width: 100%;
+        max-height: 300px
+        
+        
+    }
+
+}   
